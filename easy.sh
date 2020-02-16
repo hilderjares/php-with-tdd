@@ -40,10 +40,10 @@ fi
 
 if [ "$1" = "style:check" ];
 then 
-    php-cs-fixer fix --diff --verbose --dry-run .
+    ./vendor/bin/php-cs-fixer fix --diff --verbose --dry-run 
 fi
 
 if [ "$1" = "style:fix" ];
 then 
-    php-cs-fixer fix .
+    ./vendor/bin/php-cs-fixer fix 
 fi
