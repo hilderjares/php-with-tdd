@@ -17,4 +17,9 @@ class Cart
     {
         return $this->products;
     }
+
+    public function totalProducts(): int
+    {
+        return count($this->products);
+    }
 }
