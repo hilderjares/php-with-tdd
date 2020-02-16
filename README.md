@@ -2,7 +2,7 @@
 
 ### environment:
     - PHP ^7
-    - PHPunit ^8.5
+    - PHPUnit ^8.5
     - Linux Fedora
 
 ### Tests Results
